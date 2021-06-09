@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leming Corporate Law</title>
+    <link rel="shortcut icon" href="./assets/img/logo-favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caladea:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+  <body>
+    <header class="header bg-solid-color">
+      <div class="container-fluid d-flex flex-between flex-center">
+        <a href="#">
+          <img
+            class="header-logo"
+            src="./assets/img/logo-dark-horizontal.svg"
+            alt="logo-dark-horizontal.svg"
+          />
+        </a>
+        <div class="menu-wrap">
+          <input type="checkbox" class="toggler" />
+          <div class="hamburger"><div></div></div>
+          <div class="menu">
+            <div>
+              <div>
+                <a href="#">
+                  <img
+                    class="header-logo-dropdown"
+                    src="./assets/img/logo-dark-vertical.svg"
+                    alt="logo-dark-vertical.svg"
+                  />
+                </a>
+
+                <ul>
+                  <li class="nav-menu__link text">
+                    <a href="#about-section">About</a>
+                  </li>
+                  <li class="nav-menu__link text">
+                    <a href="#stories-section">Cases</a>
+                  </li>
+                  <li class="nav-menu__link text">
+                    <a href="#blog-section">Blog</a>
+                  </li>
+                  <li class="nav-menu__link text">
+                    <a href="#consultation-section">Contact</a>
+                  </li>
+                  <li>
+                    <a class="button-primary" href="#consultation-section"
+                      >Appointment</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <nav>
+          <ul class="nav-menu">
+            <li class="nav-menu__link text">
+              <a href="#about-section">About</a>
+            </li>
+            <li class="nav-menu__link text">
+              <a href="#stories-section">Cases</a>
+            </li>
+            <li class="nav-menu__link text">
+              <a href="#blog-section">Blog</a>
+            </li>
+            <li class="nav-menu__link text">
+              <a href="#consultation-section">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <a class="header-btn button-light" href="#consultation-section"
+          >Appointment</a
+        >
+      </div>
+    </header>
+
+    <main>
+      <section id="hero-section">
+        <div class="container h100">
+          <div class="row flex-center h100 flex-row-reverse">
+            <div class="column column-lg-6 text-center relative">
+              <div
+                class="bg-hero absolute"
+                data-aos="fade-down"
+                data-aos-delay="70"
+                data-aos-duration="1200"
+              ></div>
+              <div class="img-hero relative">
+                <img
+                  class="img-hero floating-1"
+                  data-aos="fade-down"
+                  data-aos-delay="70"
+                  data-aos-duration="1000"
+                  src="./assets/img/lawyer.png"
+                  alt="hero-image.png"
+                />
+                <img
+                  class="absolute img-hero-block floating-2"
+                  src="./assets/img/block.svg"
+                  alt="block.svg"
+                />
+                <img
+                  class="absolute img-hero-block-2 floating-3"
+                  src="./assets/img/icon.png"
+                  alt="icon.png"
+                />
+              </div>
+            </div>
+            <div
+              class="column column-lg-6"
+              data-aos="fade-down"
+              data-aos-delay="70"
+              data-aos-duration="1000"
+            >
+              <h5 class="hero__company__name heading-5">Lawyer</h5>
+              <h1 class="hero__title-description heading-1">
+                Finding Out the Truth, Arguing and Winning
+              </h1>
+              <p class="hero__subtitle-description text_big">
+                We look for truth and stand for our client. To win Justice on
+                different cases.
+              </p>
+              <a href="#" class="btn btn-m button-primary">Explore</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="quality-section" class="relative">
+        <div class="bg-color-sc-1">
+          <img
+            class="bg-circle-left floating-4"
+            src="./assets/img/circle-left.png"
+            alt="circle-left.png"
+          />
+          <img
+            class="bg-circle-right floating-4"
+            src="./assets/img/circle-right.png"
+            alt="circle-right.png"
+          />
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="column column-lg-4 margin-b">
+              <div
+                class="sc-2__card mx-auto relative"
+                data-aos="fade-up"
+                data-aos-delay="50"
+              >
+                <img
+                  class="img-bg-shape absolute"
+                  src="./assets/img/Quality-bg-shape.png"
+                  alt="quality-bg-shape.png"
+                />
+                <img
+                  class="card__shape"
+                  src="./assets/img/Quality-shape.png"
+                  alt="Quality.png"
+                />
+                <h3 class="card__title heading-4 text-right">Quality</h3>
+                <p class="card__description">
+                  Consider quality service on our company. From different cases
+                  we can solve at our own professionalism.
+                </p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+            <div class="column column-lg-4 margin-b">
+              <div
+                class="sc-2__card mx-auto relative"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
+                <img
+                  class="img-bg-shape absolute"
+                  src="./assets/img/Experience-bg-shape.png"
+                  alt="quality-bg-shape.png"
+                />
+                <img
+                  class="card__shape"
+                  src="./assets/img/Experience-shape.png"
+                  alt="Experience.png"
+                />
+                <h3 class="card__title heading-4 text-right">Experience</h3>
+                <p class="card__description">
+                  Our experience is vital and true. We encountered many cases
+                  yet most of it is a success and the stats will reveal it.
+                </p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+            <div class="column column-lg-4 margin-b">
+              <div
+                class="sc-2__card mx-auto relative"
+                data-aos="fade-up"
+                data-aos-delay="150"
+              >
+                <img
+                  class="img-bg-shape absolute"
+                  src="./assets/img/Awards-bg-shape.png"
+                  alt="quality-bg-shape.png"
+                />
+                <img
+                  class="card__shape"
+                  src="./assets/img/Awards-shape.png"
+                  alt="Awards.png"
+                />
+                <h3 class="card__title heading-4 text-right">Awards</h3>
+                <p class="card__description">
+                  Our Company is recognized by Law-Company-Something in award of
+                  Success-law-company award and many more.
+                </p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="service-section">
+        <div class="container">
+          <div class="column text-center">
+            <div class="service__heading">
+              <h5 class="service__head heading-5">Our Service</h5>
+              <h2 class="service__title-description heading-2">
+                Service Offering
+              </h2>
+              <p class="service__subtitle-description text_big">
+                We offer different services. From corporate, protecting and
+                standing on the clients privacy and policies, also clients
+                employment towards us and provide intellectual concerns.
+              </p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="services__content-cards d-grid">
+              <div
+                class="grid service-card bg-color-1 relative"
+                data-aos="flip-left"
+              >
+                <div class="service-img image-1"></div>
+                <h4 class="absolute service-text st-corporate heading-4">
+                  Corporate
+                </h4>
+              </div>
+              <div
+                class="grid service-card bg-color-2 relative"
+                data-aos="flip-left"
+              >
+                <div class="service-img image-2"></div>
+                <h4 class="absolute service-text heading-4">Privacy Policy</h4>
+              </div>
+              <div
+                class="grid service-card bg-color-3 relative"
+                data-aos="flip-left"
+              >
+                <div class="service-img image-3"></div>
+                <h4 class="absolute service-text heading-4">Employment</h4>
+              </div>
+              <div
+                class="grid service-card bg-color-4 relative"
+                data-aos="flip-left"
+              >
+                <div class="service-img image-4"></div>
+                <h4 class="absolute service-text heading-4">Intellectual</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="clients-section">
+        <div class="container">
+          <div class="row flex-center">
+            <div class="column text-center">
+              <h5 class="clients__sub-heading heading-5">Our Clients</h5>
+              <h2 class="clients__heading heading-2 mx-auto">
+                Companies that know me well confirm that I am a great lawyer
+              </h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column d-flex flex-wrap flex-center flex-around">
+              <img
+                class="clients__company"
+                src="./assets/img/Atlassian.png"
+                alt="Atlassian.png"
+              />
+              <img
+                class="clients__company"
+                src="./assets/img/Slack.png"
+                alt="Slack.png"
+              />
+              <img
+                class="clients__company"
+                src="./assets/img/Dropbox.png"
+                alt="Dropbox.png"
+              />
+              <img
+                class="clients__company"
+                src="./assets/img/Shopify.png"
+                alt="Shopify.png"
+              />
+              <img
+                class="clients__company"
+                src="./assets/img/Google.png"
+                alt="Google.png"
+              />
+            </div>
+          </div>
+
+          <div class="text-center">
+            <a href="#consultation-section" class="btn btn-m button-primary"
+              >Appointment</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section id="about-section" class="relative">
+        <div class="bg-solid-color absolute"></div>
+        <div class="container">
+          <div class="row flex-row-reverse">
+            <div
+              class="column column-lg-6 text-center"
+              data-aos="zoom-in"
+              data-aos-easing="linear"
+              data-aos-duration="850"
+            >
+              <div class="relative">
+                <img
+                  class="about__image floating-1"
+                  src="./assets/img/about-image-profile.png"
+                  alt="about-image-profile.png"
+                />
+                <img
+                  class="about__image-block absolute floating-2"
+                  src="./assets/img/about__block.png"
+                  alt="about__block.png"
+                />
+                <img
+                  class="about__image-icon absolute floating-3"
+                  src="./assets/img/about-icon.png"
+                  alt="about-icon.png"
+                />
+              </div>
+            </div>
+            <div
+              class="column column-lg-6"
+              data-aos="zoom-in"
+              data-aos-easing="linear"
+              data-aos-duration="750"
+            >
+              <div class="mx-auto">
+                <h5 class="about__company__name heading-5">About</h5>
+                <h2 class="about__title-description heading-2">
+                  Justice is Valuable
+                </h2>
+                <p class="about__subtitle-description text_big">
+                  We value the justice that must be provided for our clients
+                  stand.
+                </p>
+                <a href="#" class="btn btn-m button-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="stats-section">
+        <div class="container bg-color-3 text-center" data-aos="fade-up">
+          <div class="row">
+            <div class="column column-md-4 column-lg-4" data-aos="fade-up">
+              <h2 class="heading-2">100+</h2>
+              <div class="text_big">Clients</div>
+            </div>
+            <div class="column column-md-4 column-lg-4" data-aos="fade-up">
+              <h2 class="heading-2">99%</h2>
+              <div class="text_big">Winning Cases</div>
+            </div>
+            <div class="column column-md-4 column-lg-4" data-aos="fade-up">
+              <h2 class="heading-2">73k</h2>
+              <div class="text_big">Recovered Money</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="stories-section">
+        <div class="container">
+          <div class="row">
+            <div class="column text-center">
+              <h5 class="stories__heading heading-5">Our Stories</h5>
+              <h2 class="stories__title-description heading-2">Case Studies</h2>
+              <p class="stories__subtitle-description text_big mx-auto">
+                Our company has different case studies, stories that may suit
+                your interest.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column">
+              <div
+                class="carousel"
+                data-aos="fade-up"
+                data-aos-delay="70"
+                data-aos-duration="1200"
+              >
+                <div class="story-card relative">
+                  <img
+                    class="stories__image"
+                    src="https://p2.piqsels.com/preview/704/849/243/sculpture-male-man-library.jpg"
+                    alt="sculpture-male-man-library.jpg"
+                  />
+                  <div class="stories__content absolute">
+                    <div class="stories__content-title heading-5">
+                      Law Library
+                    </div>
+                    <div class="stories__content-subtitle heading-4">
+                      Collection of legal reference and research materials for
+                      public use.
+                    </div>
+                  </div>
+                </div>
+                <div class="story-card relative">
+                  <img
+                    class="stories__image"
+                    src="https://merriam-webster.com/assets/mw/images/article/art-wap-landing-mp-lg/pen%20writing%20on%20paper-7716-7e4d048e81bc28654d937f4208be4857@1x.jpg"
+                    alt="pen%20writing%20on%20paper-7716-7e4d048e81bc28654d937f4208be4857@1x.jpg"
+                  />
+                  <div class="stories__content absolute">
+                    <div class="stories__content-title heading-5">
+                      Common Law
+                    </div>
+                    <div class="stories__content-subtitle heading-4">
+                      Laws that develop through case decisions by judges. Not
+                      enacted by legislative bodies.
+                    </div>
+                  </div>
+                </div>
+                <div class="story-card relative">
+                  <img
+                    class="stories__image myfilter-3"
+                    src="https://www.techrepublic.com/a/hub/i/r/2014/09/08/a606a16b-3774-4934-8b27-62a9f215ecca/resize/1200x/cd02f56bf081665a74f004eac37567ee/istock000024834826small.jpg"
+                    alt="cd02f56bf081665a74f004eac37567ee/istock000024834826small.jpg"
+                  />
+                  <div class="stories__content absolute">
+                    <div class="stories__content-title heading-5">
+                      Jury Instructions
+                    </div>
+                    <div class="stories__content-subtitle heading-4">
+                      Directions given by the judge to the jury concerning the
+                      law of the case.
+                    </div>
+                  </div>
+                </div>
+                <div class="story-card relative">
+                  <img
+                    class="stories__image myfilter-2"
+                    src="https://cdn.corporatefinanceinstitute.com/assets/legal-counsel-1024x683.jpeg"
+                    alt="legal-counsel-1024x683.jpeg"
+                  />
+                  <div class="stories__content absolute">
+                    <div class="stories__content-title heading-5">
+                      Case Conference
+                    </div>
+                    <div class="stories__content-subtitle heading-4">
+                      A meeting scheduled by the court to review the case.
+                    </div>
+                  </div>
+                </div>
+                <div class="story-card relative">
+                  <img
+                    class="stories__image myfilter-1"
+                    src="https://www.wordtemplatesonline.net/wp-content/uploads/Write-Your-Own-Legal-Statement-of-Facts.jpg.webp"
+                    alt="Write-Your-Own-Legal-Statement-of-Facts.jpg.webp"
+                  />
+                  <div class="stories__content absolute">
+                    <div class="stories__content-title heading-5">Contract</div>
+                    <div class="stories__content-subtitle heading-4">
+                      Legally enforceable agreement between two or more persons
+                      or parties.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonial-section">
+        <div class="container">
+          <div class="row">
+            <div class="column column-lg-6 text-center relative">
+              <div
+                class="bg-testimonial absolute"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-center"
+              ></div>
+              <img
+                class="testimonials-image"
+                data-aos="zoom-in"
+                data-aos-easing="linear"
+                data-aos-duration="850"
+                src="./assets/img/testimonies__image.png"
+                alt="testimonials-image.png"
+              />
+            </div>
+            <div
+              class="column column-lg-6"
+              data-aos="zoom-in"
+              data-aos-easing="linear"
+              data-aos-duration="850"
+            >
+              <div class="testimonials-div">
+                <h5 class="testimonials__heading heading-5">Testimonials</h5>
+                <h2 class="testimonials__title-description heading-2">
+                  What People Say About
+                </h2>
+                <p class="testimonials__subtitle-description text_big">
+                  "The company is very helpful and accomodating, they help me
+                  gain back my position on my company. They helped me how to
+                  safeguard my policies as an manager and employee."
+                </p>
+
+                <div class="testimonials__profile d-flex">
+                  <img
+                    class="testimonials__profile-picture"
+                    src="./assets/img/testimonial-profile-picture.png"
+                    alt="testimonial-profile-pic.png"
+                  />
+                  <div class="testimonial__profile-content">
+                    <div class="testimonials__profile-name heading-4">
+                      Hevy Samson
+                    </div>
+                    <div class="testimonials__profile-social text">
+                      CRC-Manager
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="consultation-section" class="relative">
+        <div
+          class="bg-color-sc"
+          data-aos="fade-up"
+          data-aos-delay="70"
+          data-aos-duration="1200"
+        >
+          <div class="floating-1">
+            <img
+              class="bg-circle-left"
+              src="./assets/img/circle-left.png"
+              alt="circle-left.png"
+            />
+            <img
+              class="bg-circle-right"
+              src="./assets/img/circle-right.png"
+              alt="circle-right.png"
+            />
+          </div>
+        </div>
+        <div
+          class="container bg-solid-color"
+          data-aos="fade-up"
+          data-aos-delay="70"
+          data-aos-duration="1000"
+        >
+          <div class="row">
+            <div class="column column-lg-6">
+              <div class="consultation-form bg-solid-color">
+                <h6 class="consultation__head heading-4">Get Consultation</h6>
+                <div class="consultation__sub-head text">
+                  Do you want to consult from us? Just fill this form with the
+                  correct details.
+                </div>
+                <form class="consultation__forms form-group">
+                  <input
+                    type="text"
+                    name="consultation-name"
+                    class="consultation-name"
+                    placeholder="Your Name"
+                  />
+                  <input
+                    type="text"
+                    name="consultation-email"
+                    class="consultation-email"
+                    placeholder="Your Email"
+                  />
+                  <textarea
+                    name="consultation-message"
+                    placeholder="Message"
+                  ></textarea>
+
+                  <a href="#" class="btn btn-m button-primary">Submit</a>
+                </form>
+              </div>
+            </div>
+            <div class="column column-lg-6">
+              <div class="column bg-color-1">
+                <div class="consultation__contact">
+                  <div
+                    class="
+                      consultation__contact-information-mobile
+                      d-flex
+                      floating-5
+                    "
+                  >
+                    <div class="icon">
+                      <img
+                        class="shape"
+                        src="./assets/img/Phone-shape.png"
+                        alt="phone.png"
+                      />
+                    </div>
+                    <div class="consultation-information-mobile">
+                      <div class="consultation__phone-number heading-4">
+                        <a href="tel:+1 (2345) 678-90-12"
+                          >+1 (2345) 678-90-12</a
+                        >
+                      </div>
+                      <div class="text__gray">
+                        This is our contact number for our mobile or landline
+                        transaction just contact us. We will accomodate with
+                        you.
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="
+                      consultation__contact-information-mail
+                      d-flex
+                      floating-5
+                    "
+                  >
+                    <div class="icon">
+                      <img
+                        class="shape"
+                        src="./assets/img/Mail-shape.png"
+                        alt="mail.png"
+                      />
+                    </div>
+                    <div class="consultation-information-email">
+                      <div class="consultation__email">
+                        <a href="mailto:tamargo.louiel@gmail.com"
+                          >lemingcorporatelaw@company.com</a
+                        >
+                      </div>
+                      <div class="text__gray">
+                        Company email just send an email to us.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column bg-color-2">
+                <div class="consultation__news-letter h-100">
+                  <div class="consultation__newsletter-head heading-4">
+                    News Letter
+                  </div>
+                  <div class="form d-flex">
+                    <input
+                      type="text"
+                      name="news-letter-email"
+                      placeholder="Your Email"
+                      class="newsletter-email"
+                    />
+                    <a href="#" class="btn btn-m button-primary">Subscribe</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="blog-section">
+        <div class="container">
+          <div class="row">
+            <div class="column column-sm-12 text-center">
+              <h5 class="blog__heading heading-5">Our Blog</h5>
+              <h2 class="blog__title-description heading-2">Latest Articles</h2>
+              <p class="blog__subtitle-description text_big">
+                These are the collection of articles that may suit you interest.
+              </p>
+            </div>
+          </div>
+          <div class="row flex-between">
+            <div
+              class="column column-md-6 column-lg-4"
+              data-aos="fade-up"
+              data-aos-delay="70"
+              data-aos-duration="1000"
+            >
+              <div class="blog__card relative bg-solid-color myfilter-1">
+                <div class="blog__card-date text absolute">21 March 2020</div>
+                <img
+                  class="blog__card-image"
+                  src="./assets/img/blog-image-1.png"
+                  alt="blog-image-1.png"
+                />
+
+                <div class="blog__content">
+                  <div class="heading-4">
+                    Helping your client understand his/her position in a case.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="column column-md-6 column-lg-4"
+              data-aos="fade-up"
+              data-aos-delay="70"
+              data-aos-duration="1400"
+            >
+              <div class="blog__card relative bg-solid-color myfilter-2">
+                <div class="blog__card-date text absolute">20 March 2020</div>
+                <img
+                  class="blog__card-image"
+                  src="./assets/img/blog-image-2.png"
+                  alt="blog-image-2.png"
+                />
+
+                <div class="blog__content">
+                  <div class="heading-4">
+                    Understanding the law and policies that companies inquire.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="column column-md-12 column-lg-4"
+              data-aos="fade-up"
+              data-aos-delay="70"
+              data-aos-duration="2000"
+            >
+              <div class="blog__card relative bg-solid-color myfilter-3">
+                <div class="blog__card-date text absolute">19 March 2020</div>
+                <img
+                  class="blog__card-image"
+                  src="./assets/img/blog-image-3.png"
+                  alt="blog-image-3.png"
+                />
+
+                <div class="blog__content">
+                  <div class="heading-4">
+                    A company growth and success stories on solved cases.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <a href="#" class="btn btn-m button-tertiary">Explore Blog</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="upper-footer">
+          <div class="row">
+            <div class="column column-md-6 column-lg-3">
+              <div class="logo">
+                <a href="#">
+                  <img
+                    class="footer-logo"
+                    src="./assets/img/logo-light-vertical.svg"
+                    alt="logo-light-vertical.svg"
+                  />
+                </a>
+              </div>
+              <div class="icons">
+                <div class="footer-social-icon text-center floating-5">
+                  <a href="https://www.facebook.com/">
+                    <img
+                      class="social-icon"
+                      src="./assets/img/Facebook-icon.png"
+                      alt="Facebook-icon.png"
+                  /></a>
+                </div>
+                <div class="footer-social-icon text-center floating-5">
+                  <a href="https://twitter.com/home">
+                    <img
+                      class="social-icon"
+                      src="./assets/img/Twitter-icon.png"
+                      alt="Twitter-icon.png"
+                    />
+                  </a>
+                </div>
+                <div class="footer-social-icon text-center floating-5">
+                  <a href="https://www.instagram.com/accounts/login/">
+                    <img
+                      class="social-icon"
+                      src="./assets/img/Instagram-icon.png"
+                      alt="Instagram-icon.png"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="column column-md-6 column-lg-3">
+              <div class="heading-5">Menu</div>
+              <ul class="text">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Cases</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+            <div class="column column-md-6 column-lg-3">
+              <div class="heading-5">Service</div>
+              <ul class="text">
+                <li><a href="#">Corporate</a></li>
+                <li><a href="#">Data Privacy</a></li>
+                <li><a href="#">Employment</a></li>
+                <li><a href="#">Intellectual</a></li>
+              </ul>
+            </div>
+            <div class="column column-md-6 column-lg-3">
+              <div class="heading-5">Office</div>
+              <ul class="text">
+                <li>109 Proctor Ave.</li>
+                <li>Riverview, Fl 35669</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="lower-footer">
+          <div class="row">
+            <div class="copyright-container d-flex flex-between text-center">
+              <div class="copyright margin-t">
+                Copyright © 2020 Laaqiq. All Rights Reserved.
+              </div>
+              <div class="terms margin-t">
+                <a class="margin-r" href="#">Terms of use</a>
+                <a href="#">Privacy Policy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script>
+      var elem = document.querySelector(".carousel");
+      var flkty = new Flickity(elem, {
+        // options
+        cellAlign: "left",
+        contain: true,
+      });
+
+      // element argument can be a selector string
+      //   for an individual element
+      var flkty = new Flickity(".carousel", {
+        // options
+      });
+
+      AOS.init();
+    </script>
+    <script>
+      function hideMenu() {
+        let menuOpen = document.querySelector(".toggler").checked;
+
+        if ((menuOpen = true)) {
+          document.querySelector(".toggler").checked = false;
+        }
+      }
+      window.addEventListener("scroll", hideMenu);
+    </script>
+  </body>
+</html>

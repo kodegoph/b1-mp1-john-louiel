@@ -1,0 +1,90 @@
+body {
+  font-family: $MAIN-FONT;
+}
+
+.heading-1 {
+  font-size: 3.5rem;
+  line-height: 4rem;
+  font-weight: 700;
+}
+
+.heading-2 {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-weight: 700;
+}
+
+.heading-3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .heading-1 {
+    font-size: 4.5rem;
+    line-height: 5rem;
+    font-weight: 700;
+  }
+
+  .heading-2 {
+    font-size: 3.5rem;
+    line-height: 4rem;
+    font-weight: 700;
+  }
+
+  .heading-3 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: 700;
+  }
+}
+
+.heading-4 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.heading-5 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 1.125rem;
+  line-height: 2rem;
+  font-weight: 700;
+  color: $color-primary;
+}
+
+label {
+  font-size: 0.75rem;
+  line-height: 0.8625rem;
+  font-weight: 700;
+}
+
+.text_big {
+  font-size: 1.25rem;
+  line-height: 2rem;
+  font-weight: 400;
+  color: $color-gray-dark;
+}
+
+.text {
+  font-size: 1rem;
+  line-height: 2rem;
+  font-weight: 400;
+  color: $color-gray-dark;
+}
+
+.text__gray {
+  font-size: 1rem;
+  line-height: 2rem;
+  font-weight: 400;
+  color: $color-gray-medium;
+}
+
+.text__gray-small {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  color: $color-gray-medium;
+}
