@@ -14,8 +14,6 @@ https://johnlouielgithub.github.io/Leming-Corporate-Law-Web/
 
 ## 🙋‍♂️ About The Project
 
-
-
 - 🌱 I’m currently learning **Frontend and Backend Web Development**
 
 - 👨‍💻 This is my 1st mini-project on KodeGo Bootcamp.
@@ -25,7 +23,6 @@ https://johnlouielgithub.github.io/Leming-Corporate-Law-Web/
 - 👨‍This is project is based on © 2020 **Laaqiq** design from **<a href="https://elements.envato.com/all-items/laaqiq">Envato elements </a>**.
 
 - 📫 Interested on my work? contact me at **tamargo.louiel@gmail.com**
-
 
 ## 🚀 Languages and Tools Used:
 
@@ -42,11 +39,13 @@ https://johnlouielgithub.github.io/Leming-Corporate-Law-Web/
 </p>
 
 ## 💻 Site Preview
+
 <p align="left">
   <img width="100%" src="https://github.com/JohnLouielGitHub/Leming-Corporate-Law-Web/blob/main/readmeAssets/full-demo-leming.gif?raw=true">
 </p>
 
 ## 📫 Connect with me:
+
 <p align="left">
 <a href = "https://www.linkedin.com/in/john-louiel-tamargo-62a035214"><img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/></a>
 <a href = "https://github.com/JohnLouielGitHub/"><img src="https://img.icons8.com/fluent/48/000000/github.png"/></a>
@@ -54,9 +53,9 @@ https://johnlouielgithub.github.io/Leming-Corporate-Law-Web/
 </p>
 
 ## 👀 Views and Followers
+
 <p align="left">
 <a><img src="https://komarev.com/ghpvc/?username=JohnLouielGitHub">
 </a>
 <a><img src="https://img.shields.io/github/followers/JohnLouielGitHub?label=Followers&style=social" alt="GitHub Badge"></a>
 </p>
-
